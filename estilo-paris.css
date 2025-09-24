@@ -1,0 +1,139 @@
+/*ESTRUTURA DO SITE*/
+body{
+    background-color: #faf9f5;
+    background-image: url(imagens/back-paris.jpg);
+    background-repeat: repeat-x;
+    margin-top: 0px;
+    width: 1035px;
+    margin-right: auto;
+    margin-left: auto;    
+}
+
+body, td, th{
+    font-family: Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+/*ESTILIZANDO O MENU*/
+#menu{
+    background: url(imagens/logotipo.png) no-repeat;
+    text-align: right;
+    padding-top: 90px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+#menu p{
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#menu p a{
+    font-weight: normal;
+    color: #71000D;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-top: 2px solid #14316B;
+}
+
+#menu p a:hover{
+    background: #d8e1f3;
+}
+#titulos{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#conteudo{
+    text-align: justify;
+    margin-left: 240px;
+    padding-right: 15px;
+}
+
+h1{
+    font-size: 50px;
+    color: #14316B;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 20px;
+    background-color: #9eb6e2;
+    color: #fff;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+h3{
+    font-size: 20px;
+    color: #14316B;
+    font-weight: normal;
+    border-bottom: 2px solid #14316B;
+}
+
+#conteudo ul{
+    padding-left: 25px;
+}
+
+#conteudo ul li{
+    padding-bottom: 10px;
+    list-style: url(imagens/lista-losango.gif);
+}
+
+/*Será usado nos arquivos "Imperdível" que possuem imagens*/
+#conteudo p img{
+    padding: 10px;
+    margin-right: 7px;
+    margin-bottom: 14px;
+    border: 1px solid #990000;
+}
+
+table{
+    width: 600px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+caption{
+    font-weight: bolder;
+    background-color: #14316B;
+    color: #fff;
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+th{
+    background: #990000;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
+}
+
+td{
+    background: #9EB6E2;
+    padding: 5px;
+    border-bottom: 1px solid #900;
+    text-align: center;
+}
+
+#box{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bolder;
+    color: #14316B;
+    background: #9EB6E2 url(imagens/back-box.gif);
+    padding: 30px 60px;
+    width: 480px;
+    border: thick dashed #14316B;
+}
+
+.destaque{
+    font-size: 14px;
+    color: #900;
+    background: #FFF;
+    padding: 3px;
+}
